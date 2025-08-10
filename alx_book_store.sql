@@ -30,7 +30,7 @@ order_date DATE NOT NULL ,
 FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
-CREATE TABLE Orders_Details (
+CREATE TABLE Order_Details (
 orderdetailid INT PRIMARY KEY AUTO_INCREMENT ,
 order_id INT NOT NULL ,
 book_id INT NOT NULL ,
